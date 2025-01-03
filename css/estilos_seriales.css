@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+        background-image: url('https://demonstermash.wordpress.com/wp-content/uploads/2017/11/serial-killers.jpg?w=683');
+        background-size: 250vh; 
+        background-repeat: no-repeat; 
+        height: 100%; 
+        margin: 0; 
+        background-attachment: fixed;
+  
+   
+}
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #383838;
+    box-sizing: border-box;
+    justify-content: center; 
+    background-color: #75807d;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #700505;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #97002d;
+    border-radius: 20px;
+}
+.navbar ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar li {
+    margin: 0 15px; 
+}
+
+.navbar a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.navbar a:hover {
+    text-decoration: underline; 
+}
+.background {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px; 
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: 50px auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background:#00000083;
+    padding: 20px; 
+    height: auto; 
+   font-size: 30px;
+   color: #fafafa;
+}
+.titulo {
+    margin: 0 20px; 
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    color: #fffbfb;
+    color:  rgb (255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 7px 7px 10px rgb(0, 0, 0);
+    
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a nuevas líneas si es necesario */
+}
+.contentcard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 7px 7px 10px rgb(255, 255, 255);
+}
+
+.card {
+    background-color: rgb(82, 13, 8);
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+    transition: transform 0.3s;
+    color: #100642;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Permite que los elementos hijos se posicionen en relación a la tarjeta */
+}
+
+.card img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Asegura que la imagen ocupe todo el alto del contenedor */
+    object-fit: cover; /* Mantiene la proporción de la imagen mientras llena el contenedor */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.795);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute; /* Coloca el texto en una posición absoluta */
+    bottom: 10px; /* Alinea el texto en la parte inferior */
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    color: #d49d9d; 
+    padding: 10px; 
+    margin: 20px 0; 
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
